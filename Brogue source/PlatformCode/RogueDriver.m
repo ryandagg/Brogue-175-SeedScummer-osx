@@ -27,7 +27,7 @@
 #include "CoreFoundation/CoreFoundation.h"
 #import "RogueDriver.h"
 #import <QuartzCore/QuartzCore.h>
-#import <TextEdit3-Swift.h>
+#import <BrogueScummer-Swift.h>
 
 #define BROGUE_VERSION	4	// A special version number that's incremented only when
 // something about the OS X high scores file structure changes.

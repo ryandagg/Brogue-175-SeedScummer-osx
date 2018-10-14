@@ -68,7 +68,7 @@
 		69A642201476EC76006246FB /* Buttons.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Buttons.c; path = BrogueCode/Buttons.c; sourceTree = "<group>"; };
 		69C741491775466100CD2D5F /* Time.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Time.c; path = BrogueCode/Time.c; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8D1107320486CEB800E47090 /* TextEdit3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextEdit3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1107320486CEB800E47090 /* BrogueScummer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrogueScummer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC12F45A1EB009A6001945BE /* RogueScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RogueScene.swift; path = PlatformCode/RogueScene.swift; sourceTree = "<group>"; };
 		BC12F45C1EB00D4C001945BE /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Cell.swift; path = PlatformCode/Cell.swift; sourceTree = "<group>"; };
 		C54E80A71EBEC46800A0E086 /* Brogue-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Brogue-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -121,7 +121,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D1107320486CEB800E47090 /* TextEdit3.app */,
+				8D1107320486CEB800E47090 /* BrogueScummer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -203,7 +203,7 @@
 			name = Brogue;
 			productInstallPath = "$(HOME)/Applications";
 			productName = RogueCocoa;
-			productReference = 8D1107320486CEB800E47090 /* TextEdit3.app */;
+			productReference = 8D1107320486CEB800E47090 /* BrogueScummer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -344,9 +344,9 @@
 				INSTALL_PATH = "$(HOME)/Applications";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				MODULEMAP_FILE = "TextEdit3-Swift.h";
+				MODULEMAP_FILE = "BrogueScummer-Swift.h";
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_NAME = TextEdit3;
+				PRODUCT_NAME = BrogueScummer;
 				SDKROOT = macosx;
 				SWIFT_OBJC_BRIDGING_HEADER = "Brogue-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -375,8 +375,8 @@
 				INSTALL_PATH = "$(HOME)/Applications";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				MODULEMAP_FILE = "TextEdit3-Swift.h";
-				PRODUCT_NAME = TextEdit3;
+				MODULEMAP_FILE = "BrogueScummer-Swift.h";
+				PRODUCT_NAME = BrogueScummer;
 				SDKROOT = macosx;
 				SWIFT_OBJC_BRIDGING_HEADER = "Brogue-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
