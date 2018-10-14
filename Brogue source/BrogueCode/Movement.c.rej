@@ -1,0 +1,10 @@
+diff a/Brogue Source/BrogueCode/Movement.c b/Brogue Source/BrogueCode/Movement.c	(rejected hunks)
+@@ -2082,7 +2082,7 @@
+ 			} else {
+                 //copyDisplayBuffer(fromBuf, displayBuffer);
+ 				message("You ascend.", false);
+-				startLevel(rogue.depthLevel + 1, stairDirection);
++				startLevel(rogue.depthLevel + 1, stairDirection, false);
+                 //copyDisplayBuffer(toBuf, displayBuffer);
+                 //irisFadeBetweenBuffers(fromBuf, toBuf, mapToWindowX(player.xLoc), mapToWindowY(player.yLoc), 10, true);
+ 			}
